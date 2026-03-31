@@ -21,8 +21,8 @@ jobs:
     - name: Test single line input case
       run: diff test_data/test2_output.txt test_data/test2_expected.txt
       
-    - name: Produce regular use case outputs
+    - name: Produce empty input outputs
       run: python find_lowest_number.py test_data/test3_input.txt test_data/test3_output.txt
-    - name: Test regular use case
+    - name: Test empty input case
       run: diff test_data/test3_output.txt test_data/test3_expected.txt
       
